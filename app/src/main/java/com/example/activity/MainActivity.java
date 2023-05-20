@@ -40,7 +40,7 @@ private View.OnClickListener listener=new View.OnClickListener() {
 
     @Override
     protected void onStart() {
-//        textCount.setText(Integer.toString(count));
+
         Toast toast=Toast.makeText(this,R.string.toastStart,Toast.LENGTH_LONG);
         toast.show();
         super.onStart();
@@ -90,10 +90,10 @@ private View.OnClickListener listener=new View.OnClickListener() {
     protected void onCreate(Bundle savedInstanceState) {
                 setContentView(R.layout.activity_main);
         textCount=findViewById(R.id.textCount);
-//        textCount.setText(Integer.toString(count));
+
         button=findViewById(R.id.button);
         button.setOnClickListener(listener);
-//        count=savedInstanceState.getInt("count");
+
         super.onCreate(savedInstanceState);
     }
 }
