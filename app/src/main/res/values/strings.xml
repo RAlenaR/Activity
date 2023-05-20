@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Activity</string>
+    <string name="toastStart">Старт активности</string>
+    <string name="toastStop">Стоп активности</string>
+    <string name="toastDestroy">Уничтожение активности</string>
+    <string name="toastPause">Пауза</string>
+    <string name="toastResume">Взаимодействие с активностью</string>
+    <string name="toastSave">Сохранение данных</string>
+    <string name="toastRestore">Восстановление данных</string>
+
+</resources>
